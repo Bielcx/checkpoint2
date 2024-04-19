@@ -14,9 +14,7 @@ Aplicação Java com container e Banco de dados
 #### Clone
 
 ```
-git clone https://github.com/
-git clone https://github.com/
-git clone https://github.com/
+git clone https://github.com/Bielcx/checkpoint2
 ```
 
 
@@ -35,13 +33,13 @@ docker build -t checkpoint2 .
 
 ```
 Executar em DEV
-docker run -d -p 8080:8080 -e PROFILE=dev 
+docker run -d -p 8080:8080 -e PROFILE=dev bielcx/checkpoint2
 
 Executar em STG
-docker run -d -p 8080:8080 -e PROFILE=stg 
+docker run -d -p 8080:8080 -e PROFILE=stg bielcx/checkpoint2
 
 Executar em PRD
-docker run -d -p 8080:8080 -e PROFILE=prd 
+docker run -d -p 8080:8080 -e PROFILE=prd bielcx/checkpoint2
 ```
 
 
